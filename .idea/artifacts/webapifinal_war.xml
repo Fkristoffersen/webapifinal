@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webapifinal:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>webapifinal</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="webapifinal-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="webapifinal:war exploded" />
+    </root>
+  </artifact>
+</component>
